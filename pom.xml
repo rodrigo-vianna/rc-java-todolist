@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>br.com.rodrigovianna</groupId>
 	<artifactId>todolist</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>todolist</name>
 	<description>Task Manager</description>
 	<properties>
@@ -75,6 +75,12 @@
 			<groupId>jakarta.persistence</groupId>
 			<artifactId>jakarta.persistence-api</artifactId>
 			<version>3.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>at.favre.lib</groupId>
+			<artifactId>bcrypt</artifactId>
+			<version>0.10.2</version>
 		</dependency>
 
 		<dependency>
